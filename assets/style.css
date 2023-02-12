@@ -190,7 +190,7 @@ section{
     color: var(--light-color);
     font-size: 1.6rem;
 }
-.header .shopping-cart .box .content-cart span .prc{
+.header .shopping-cart .box .content-cart .prc{
    padding-left: 95px; 
 }
 
