@@ -232,6 +232,7 @@ section{
     color: var(--black);
 }
 .header .login-form .box{
+    width: 100%;
     margin: .7rem 0;
     background: #eee;
     border-radius: .5rem;
