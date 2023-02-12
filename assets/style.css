@@ -466,7 +466,7 @@ section{
 }
 .blog .box-container{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(26rem, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
     gap: 1.5rem;
 }
 .blog .box-container .box{
@@ -514,7 +514,41 @@ section{
     font-size: 1.5rem;
     padding: .5rem 0;
 }
-
+.footer{
+    background: #fff;
+}
+.footer .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap: 1.5rem;
+}
+.footer .box-container.box h3{
+    font-size: 2.5rem;
+    color: var(--black);
+    padding: 1rem 0;
+}
+.footer .box-container.box h3 i{
+    color: var(--orange);
+}
+.footer .box-container.box a{
+    display: block;
+    font-size: 1.5rem;
+    color: var(--light-color);
+    padding: 1rem 0;
+}
+.footer .box-container.box a i{
+    color: var(--orange);
+    padding-left: .5rem;
+}
+.footer .box-container.box a:hover i{
+    padding-left: 2rem;
+}
+.footer .box-container.box p{
+    line-height: 1.8;
+    font-size: 1.5rem;
+    color: var(--light-color);
+    padding: 1rem 0;
+}
 
 
 
