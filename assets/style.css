@@ -351,6 +351,7 @@ section{
 }
 .products .product-slider .box img{
     height: 20rem;
+    border-radius: 2rem;
 }
 .products .product-slider .box h3{
     font-size: 2.5rem;
