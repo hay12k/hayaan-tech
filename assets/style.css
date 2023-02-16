@@ -169,6 +169,7 @@ section{
 }
 .header .shopping-cart .box img{
     height: 10rem;
+    border-radius: 7px;
 }
 .header .shopping-cart .box .fa-trash{
     font-size: 2rem;
@@ -185,6 +186,9 @@ section{
     color: var(--black);
     font-size: 1.7rem;
     padding-bottom: 1rem;
+}
+.header .shopping-cart .box .content-cart h1{
+    font-size: 1.5rem;
 }
 .header .shopping-cart .box .content-cart span{
     color: var(--light-color);
@@ -738,5 +742,8 @@ section{
     }
     .heading{
         font-size: 2.5rem;
+    }
+    .footer{
+        text-align: center;
     }
 }
