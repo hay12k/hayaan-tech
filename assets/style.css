@@ -216,7 +216,9 @@ section{
     text-align: center;
     margin: 1rem;
 }
-.header .login-form{
+.header .login-form,
+.header .signup-form,
+.header .forget-form{
     position: absolute;
     top: 110%; right: -110%;
     width: 35rem;
@@ -226,16 +228,22 @@ section{
     background: #fff;
     text-align: center;
 }
-.header .login-form.active{
+.header .login-form.active,
+.header .signup-form.active,
+.header .forget-form.active{
     right: 2rem;
     transition: .4s linear;
 }
-.header .login-form h3{
+.header .login-form h3,
+.header .signup-form h3,
+.header .forget-form h3{
     font-size: 2.5rem;
     text-transform: uppercase;
     color: var(--black);
 }
-.header .login-form .box{
+.header .login-form .box,
+.header .signup-form .box,
+.header .forget-form .box{
     width: 100%;
     margin: .7rem 0;
     background: #eee;
@@ -245,12 +253,16 @@ section{
     color: var(--black);
     text-decoration: none;
 }
-.header .login-form p{
+.header .login-form p,
+.header .signup-form p,
+.header .forget-form p{
     font-size: 1.4rem;
     padding: .5rem 0;
     color: var(--light-color);
 }
-.header .login-form p a{
+.header .login-form p a,
+.header .signup-form p a,
+.header .forget-form p a{
     color: var(--orange);
     text-decoration: underline;
 }
@@ -259,7 +271,7 @@ section{
     display: flex;
     align-items: center;
     justify-content: center;
-    background: linear-gradient(140deg, rgba(30,0,255,1) 0%, rgba(145,49,117,1) 0%, rgba(233,232,232,1) 51%, rgba(0,212,255,1) 100%);
+    background: linear-gradient(180deg, rgba(30,0,255,1) 0%, rgba(145,49,117,1) 0%, rgba(233,232,232,1) 51%, rgba(0,212,255,1) 100%);
     background-position: center;
     padding-top: 17rem;
     padding-bottom: 10rem;
