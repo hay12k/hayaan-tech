@@ -455,7 +455,7 @@ section{
     padding: 3rem 2rem;
     background: #fff;
     box-shadow: var(--boxshadow);
-    border-bottom: .5rem solid #f6c23e;
+    border-bottom: .5rem solid #CD5888;
 }
 .law .box-container .box:nth-child(2){
     border-bottom: .5rem solid #36b9cc;
@@ -485,7 +485,7 @@ section{
     padding: 3rem 2rem;
     background: #fff;
     box-shadow: var(--boxshadow);
-    border-bottom: .5rem solid #f6c23e;
+    border-bottom: .5rem solid #CD5888;
 }
 .law .box-container1 .box:nth-child(2){
     border-bottom: .5rem solid #36b9cc;
@@ -522,13 +522,13 @@ section{
     padding: 3rem 2rem;
     background: #fff;
     box-shadow: var(--boxshadow);
-    border-left: .5rem solid #f6c23e;
+    border-left: .5rem solid #CD5888;
 }
 .money .box-container .box:nth-child(2){
-    border-left: .5rem solid #e74a3b
+    border-left: .5rem solid #36b9cc
 }
 .money .box-container .box:nth-child(4){
-    border-left: .5rem solid #e74a3b
+    border-left: .5rem solid #36b9cc
 }
 .money .box-container .box:hover{
     outline: var(--outline-hover);
@@ -554,19 +554,13 @@ section{
     padding: 3rem 2rem;
     background: #fff;
     box-shadow: var(--boxshadow);
-    border-left: 0.5rem solid #f6c23e;
+    border-left: 0.5rem solid #CD5888;
 }
 .money .box-container1 .box:nth-child(2){
-    padding: 3rem 2rem;
-    background: #fff;
-    box-shadow: var(--boxshadow);
     border-left: .5rem solid #36b9cc;
 }
 .money .box-container1 .box:nth-child(4){
-    padding: 3rem 2rem;
-    background: #fff;
-    box-shadow: var(--boxshadow);
-    border-left: .5rem solid #4e73df;
+    border-left: .5rem solid #36b9cc;
 }
 .money .box-container1 .box:hover{
     outline: var(--outline-hover);
