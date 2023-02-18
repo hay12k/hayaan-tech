@@ -522,6 +522,13 @@ section{
     padding: 3rem 2rem;
     background: #fff;
     box-shadow: var(--boxshadow);
+    border-left: .5rem solid #f6c23e;
+}
+.money .box-container .box:nth-child(2){
+    border-left: .5rem solid #e74a3b
+}
+.money .box-container .box:nth-child(4){
+    border-left: .5rem solid #e74a3b
 }
 .money .box-container .box:hover{
     outline: var(--outline-hover);
